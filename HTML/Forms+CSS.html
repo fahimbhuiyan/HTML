@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="utf-8">
+        <title>
+            Forms
+        </title>
+        <style>
+            a:link {
+                color:white;
+            }
+            a:visited {
+                color: white;
+            }
+            img {
+                float:left;
+            }
+            body {
+                background-color:#f7c625;
+            }
+            h1 {
+                font-family:"Comic sans ms" ;font-size: 72px;color:red;text-align:center;
+            }
+            form {
+                color: black;
+            }
+            .field_set1 {
+                background-color: #d48df2;border: 5px groove; border-color: purple; padding-top: 0.20em; padding-bottom: 0.5em;
+            }
+            .field_set2 {
+                border: 5px groove; background-color: #2dfc58; border-color: green; padding-top: 0.20em; padding-bottom: 0.5em;
+            }
+            .leg1 {
+                font-size: 20px; font-family:Comic; color: purple;
+            }
+            .leg2 {
+                font-size: 20px; font-family:Comic; color: green;
+            }
+            .footer {
+                color:purple;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <table>
+                <th>
+                    <a href= "http://www.clipartpanda.com/clipart_images/free-red-sports-car-clip-art-58186124">
+                    <img src="redcar.png" alt="Red Car" width="250" height ="150"> </a> Car Dealership
+                </th>
+
+        </table>
+        <form action="">
+            <fieldset class="field_set1">
+                <legend class="leg1">
+                    Customer Information
+                </legend>
+                <p>
+                    <label for="input__Name">
+                        <strong>Customer Name</strong>
+                    </label>
+                    <br>
+                    <input id="input__First" type="text" placeholder="First Name">
+                    <input id="input__Last" type="text" placeholder="Last Name">
+                </p>
+                <p>
+                    <label for="input__Contact">
+                        <strong>Customer Contact</strong>
+                    </label>
+                    <input id="input__phone" type="text" placeholder="XXX-XXX-XXXX">
+                </p>
+                <p>
+                    <label for="input__email">
+                        <strong>Email Address</strong>
+                    </label>
+                    <input id="input__email" type="text" placeholder="Email Address">
+                </p>
+            </fieldset>
+
+            <fieldset class="field_set2">
+                <legend class ="leg2">
+                    Car Information
+                </legend>
+                <p>
+                    <strong>Car Type:</strong>
+                </p>
+                    <label>
+                        <input type ="radio" 
+                        name="vehicles"
+                        value = Coupe checked="checked"/> 
+                        Coupe
+                    </label><br>
+                    <label>
+                        <input type ="radio"
+                        name="vehicles"
+                        value = Sedan /> Sedan
+                    </label><br>
+                    <label>
+                        <input type ="radio"
+                        name ="vehicles"
+                        value=SUV /> SUV
+                    </label><br>
+                <p>
+                    <strong>Features:</strong>
+                </p>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "RView Cam" checked="checked" /> 
+                        Rear View Camera
+                    </label>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "GPS" /> GPS
+                    </label>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "LeatSeats" /> Leather Seats
+                    </label>
+
+                <p>
+                    <label for ="input_text">
+                        <strong>Price Range:</strong>
+                        <br>
+                        <p>
+                            Minimum Price:
+                            <input id="input_min" type ="text" placeholder ="0.00$"/>
+                            Maximum Price:
+                            <input id="input_max" type ="text" placeholder ="0.00$"/> 
+                        </p>
+                    </label>
+                </p>
+
+                <p>
+                    <label for ="ic">
+                        <strong>Car Color:</strong>
+                    <br>
+                    <input type="color" id="ic" value="#000000">
+                    </label>
+                </p>
+
+                <p>
+                    <strong>Approximate Purchase Date:</strong>
+                    <br>
+                    <input type="date" name="date">
+                </p>
+
+            </fieldset>
+            <p>
+                    Request a list of cars with quotes.
+            <br>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+            </p>
+        </form>
+        <br>
+
+        <p class="footer">
+            Webpage Created by Fahim Bhuiyan.
+        </p>
+
+
+
+    </body>
+</html>

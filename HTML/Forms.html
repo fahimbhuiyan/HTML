@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="utf-8">
+        <title>
+            Forms
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            <img src="redcar.png" alt="Red Car">Car Dealership
+        </h1>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Customer Information
+                </legend>
+                <p>
+                    <label for="input__Name">
+                        Customer Name
+                    </label>
+                    <br>
+                    <input id="input__First" type="text" placeholder="First Name">
+                    <input id="input__Last" type="text" placeholder="Last Name">
+                </p>
+                <p>
+                    <label for="input__Contact">
+                        Customer Contact
+                    </label>
+                    <input id="input__phone" type="text" placeholder="XXX-XXX-XXXX">
+                </p>
+                <p>
+                    <label for="input__email">
+                        Email Address
+                    </label>
+                    <input id="input__email" type="text" placeholder="Email Address">
+                </p>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>
+                    Car Information
+                </legend>
+                <p>
+                    Car type:
+                </p>
+                    <label>
+                        <input type ="radio" 
+                        name="vehicles"
+                        value = Coupe checked="checked"/> 
+                        Coupe
+                    </label><br>
+                    <label>
+                        <input type ="radio"
+                        name="vehicles"
+                        value = Sedan /> Sedan
+                    </label><br>
+                    <label>
+                        <input type ="radio"
+                        name ="vehicles"
+                        value= "SUV" /> SUV
+                    </label><br>
+                <p>
+                    Features:
+                </p>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "RView Cam" checked="checked" /> 
+                        Rear View Camera
+                    </label>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "GPS" /> GPS
+                    </label>
+                    <label>
+                        <input type="checkbox"
+                        name ="features"
+                        value = "LeatSeats" /> Leather Seats
+                    </label>
+
+                <p>
+                    <label for ="input_text">
+                        Price Range:
+                        <br>
+                        <p>
+                            Minimum Price:
+                            <input id="input_min" type ="text" placeholder ="0.00$"/>
+                            Maximum Price:
+                            <input id="input_max" type ="text" placeholder ="0.00$"/> 
+                        </p>
+                    </label>
+                </p>
+
+                <p>
+                    <label for ="ic">
+                        Car Color:
+                    </label>
+                    <br>
+                    <input type="color" id="ic" value="#000000">
+                </p>
+
+                <p>
+                    Approximate Purchase Date:
+                    <br>
+                    <input type="date" name="date">
+                </p>
+
+            </fieldset>
+
+            <p>
+                    Request a list of cars with quotes.
+            <br>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+            </p>
+        </form>
+    </body>
+</html>

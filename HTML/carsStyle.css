@@ -1,0 +1,116 @@
+/*style for body*/
+body {
+    background-image: url("cars.jpg");
+    background-repeat: repeat;
+    background-size: 400px 200px;
+}
+
+/*style for header*/
+.header {
+    font-family: "Comic sans ms";
+    font-size: 28px;
+    color: yellow;
+    border: 10px solid blue;
+    padding: 10px;
+    width: 28%;
+    margin: 20px;
+}
+
+/*Style for table*/
+table {
+    margin: 20px;
+    border-color: orange;
+    border-width: 15px;
+    border-left-style: dotted;
+    border-right-style: double;
+    border-top-style: groove;
+    border-bottom-style:dashed;
+    font-family: "Book Antiqua";
+}
+
+/*Style for th*/
+th {
+    font-family:"Times new roman";
+    font-size: 24px;
+    background-color: chartreuse;
+    border-color:black;
+    padding: 10px;
+    
+}
+
+/*Style for class first*/
+.first {
+    font-family: "Book Antiqua";
+    background-color: darkgreen;
+    border: 5px inset red;
+}
+
+/*Style for class second*/
+.second {
+    font-family: "Book Antiqua";
+    background-color :yellow;
+    border: 5px outset royalblue;
+}
+
+/*Style for class third*/
+.third {
+    font-family: "Book Antiqua";
+    background-color :lightgreen;
+    border: 5px double olivedrab;
+}
+
+/*Style for fourth*/
+.fourth {
+    font-family: "Book Antiqua";
+    background-color :orangered;
+    border: 5px dashed gold;
+}
+
+/*Style for li with id=ul1*/
+#ul1 li {
+    list-style-image: url('leaf.png');
+}
+
+/*Style for li with id=ul2*/
+#ul2 li{
+    color:royalblue;
+}
+
+/*Style for li with id=ul3*/
+#ul3 li {
+    color: gold;
+    list-style-type: square;
+}
+
+/*Style for li with id=ul4*/
+#ul4 li {
+    list-style-image: url('wheel1.jpg');
+}
+
+/*Style for ol in class fourth*/
+.fourth ol {
+    list-style-type: lower-greek;
+}
+
+p {
+    color: #2230f5;
+    font-family: "Times new roman";
+    font-size: 24px;
+    font-weight: bold;
+}
+a:link {
+    color:red;
+    font-size: 16px;
+}
+a:visited {
+    color: orange;
+    font-size: 16px;
+}
+.footer {
+    border: 2px inset black;
+    background-color: pink;
+    padding: 0.5em;
+    width: 30%;
+    margin: 20px;
+
+}
